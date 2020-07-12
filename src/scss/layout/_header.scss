@@ -25,15 +25,21 @@
         @media all and (min-width: 768px){
             font-size: 20px;
             height: 100%;
+            margin-left: 28px;
         }
-        p{
+        a{
+            color: $color-light;
             width: 100%;
-            text-align: center;
-            @media all and (min-width: 768px){
-                text-align: left;
-                font-size: 36px;
+            p{
+                width: 100%;
+                text-align: center;
+                @media all and (min-width: 768px){
+                    text-align: left;
+                    font-size: 36px;
+                }
             }
         }
+        
     }
     .header__menu{
         height: 100%;

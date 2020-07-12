@@ -1,0 +1,35 @@
+<main class="contact">
+    <section class="main__contact">
+        <div class="contact__info">
+            <h1 class="contact__title">Contacto</h1>
+            <p class="contact__text">
+                ¿Tienes alguna pregunta? ¿Quieres trabajar con nosotros? No dudes en
+                escribirnos, estamos deseando colaborar contigo.
+            </p>
+            <p class="contact__textsmall">
+                Todos los campos marcados con <span class="asterisk">*</span> son
+                obligatorios.
+            </p>
+        <form class="contact__form" action="https://formspree.io/xoqkwbpb" method="post">
+            <label for="name">Nombre completo <span class="asterisk">*</span>
+                <input type="text" placeholder="Rick Sánchez" id="name" name="name" required/>
+            </label>
+
+            <label for="email">Email <span class="asterisk">*</span>
+              <input class="email" type="email" placeholder="ricksanchez@rickymorty.com" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required/>
+            </label>
+  
+            <label for="phone">Teléfono
+              <input type="tel" placeholder="666 666 666" id="phone" name="phone" pattern="[0-9]{9}"/>
+            </label>
+  
+            <label for="comments">Mensaje<span class="asterisk">*</span>
+                <textarea id="comments" name="comments" rows="4" cols="80" placeholder="¿Qué necesitas?" required ></textarea>
+            </label>
+  
+            <div class="send__button">
+                <input class="send" type="submit" value="Enviar" name="_next" />
+            </div>
+        </form>
+    </section>
+</main>

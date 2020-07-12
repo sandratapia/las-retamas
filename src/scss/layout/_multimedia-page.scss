@@ -1,0 +1,277 @@
+.wrapper__multimedia{
+    padding: 0 15px 0 15px;
+    @media all and (min-width: 768px){
+        padding: 0 10px 0 10px;
+    }
+    @media all and (min-width: 1024px){
+        padding: 0px;
+    }
+}
+.multimedia{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    .main__multimedia{
+        max-width: 800px;
+        width: 100%;
+        border: 1px solid red;
+        .multimedia__title{
+            font-family: $font-title;
+            font-size: 25px;
+            padding-bottom: 25px;
+            text-align: center;
+            margin: 0px;
+            @media all and (min-width: 768px){
+                font-size: 30px;
+            }
+        }
+        .multimedia__disc1{
+            width: 100%;
+            border: 1px solid red;
+            .disc__info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media all and (min-width: 768px){
+                    flex-direction: row;
+                }
+                .img__disc1{
+                    width: 160px;
+                    height: 160px;
+                    border: 1px solid red;
+                    flex-shrink: 0;
+                    background-image: url(../images/discs/);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-bottom: 10px;
+                    &:hover{
+                        box-shadow: 0 2px 4px 0 $color-dark;
+                    }
+                    @media all and (min-width: 768px){
+                        margin-bottom: 0px;
+                    }
+                }
+                .disc__description{
+                    width: 100%;
+                    font-family: $font-paragraph;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-left: 20px;
+                    }
+                    h2{
+                        font-family: $font-title;
+                        text-align: center;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .media__disc1{
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid red;
+                @media all and (min-width: 768px){
+                    flex-direction: row;
+                }
+                .spotify{
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-right: 10px;
+                        width: 50%;
+                    }
+                }
+                .youtube{
+                    height: 300px;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        width: 50%;
+                        margin-left: 10px;
+                    }
+                    .paseo-lidl{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .multimedia__disc2{
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid red;
+            .disc__info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media all and (min-width: 768px){
+                    flex-direction: row-reverse;
+                }
+                .img__disc2{
+                    width: 160px;
+                    height: 160px;
+                    border: 1px solid red;
+                    flex-shrink: 0;
+                    background-image: url(../images/discs/disc2.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-bottom: 10px;
+                    &:hover{
+                        box-shadow: 0 2px 4px 0 $color-dark;
+                    }
+                    @media all and (min-width: 768px){
+                        margin-bottom: 0px;
+                    }
+                }
+                .disc__description{
+                    width: 100%;
+                    font-family: $font-paragraph;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-right: 20px;
+                    }
+                    h2{
+                        font-family: $font-title;
+                        text-align: center;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .media__disc2{
+                margin-top: 15px;
+                display: flex;
+                border: 1px solid red;
+                .spotify{
+                    width: 100%;
+                    border: 1px solid red;
+                }
+            }
+        }
+        .multimedia__disc3{
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid red;
+            .disc__info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media all and (min-width: 768px){
+                    flex-direction: row;
+                }
+                .img__disc3{
+                    width: 160px;
+                    height: 160px;
+                    border: 1px solid red;
+                    flex-shrink: 0;
+                    background-image: url(../images/discs/);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-bottom: 10px;
+                    &:hover{
+                        box-shadow: 0 2px 4px 0 $color-dark;
+                    }
+                    @media all and (min-width: 768px){
+                        margin-bottom: 0px;
+                    }
+                }
+                .disc__description{
+                    width: 100%;
+                    font-family: $font-paragraph;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-left: 20px;
+                    }
+                    h2{
+                        font-family: $font-title;
+                        text-align: center;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .media__disc3{
+                margin-top: 15px;
+                display: flex;
+                border: 1px solid red;
+                .spotify{
+                    width: 100%;
+                    border: 1px solid red;
+                }
+            }
+        }
+        .multimedia__disc4{
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid red;
+            .disc__info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media all and (min-width: 768px){
+                    flex-direction: row-reverse;
+                }
+                .img__disc4{
+                    width: 160px;
+                    height: 160px;
+                    border: 1px solid red;
+                    flex-shrink: 0;
+                    background-image: url(../images/discs/disc3.jpg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    margin-bottom: 10px;
+                    &:hover{
+                        box-shadow: 0 2px 4px 0 $color-dark;
+                    }
+                    @media all and (min-width: 768px){
+                        margin-bottom: 0px;
+                    }
+                }
+                .disc__description{
+                    width: 100%;
+                    font-family: $font-paragraph;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-right: 20px;
+                    }
+                    h2{
+                        font-family: $font-title;
+                        text-align: center;
+                        font-size: 19px;
+                    }
+                }
+            }
+            .media__disc4{
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid red;
+                @media all and (min-width: 768px){
+                    flex-direction: row;
+                }
+                .spotify{
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        margin-right: 10px;
+                        width: 50%;
+                    }
+                }
+                .youtube{
+                    height: 300px;
+                    border: 1px solid red;
+                    @media all and (min-width: 768px){
+                        width: 50%;
+                        margin-left: 10px;
+                    }
+                    .entrebosques{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

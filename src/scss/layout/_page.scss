@@ -102,32 +102,76 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        .disc1{
+        .disc{
             width: 160px;
             height: 160px;
             margin-bottom: 10px;
-            background-image: url(./assets/images/disc1.PNG);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
             border: 1px solid red;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 2px 4px 0 $color-dark;
+            }
+            .disc1{
+                width: 160px;
+                height: 160px;
+                background-image: url(./assets/images/disc1.PNG);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }  
         }
-        .disc2{
+        .disc{
             width: 160px;
             height: 160px;
             margin-bottom: 10px;
-            background-image: url(../images/discs/disc2.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 2px 4px 0 $color-dark;
+            }
+            .disc2{
+                width: 160px;
+                height: 160px;
+                margin-bottom: 10px;
+                background-image: url(../images/discs/disc2.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
         }
-        .disc3{
+        .disc{
             width: 160px;
             height: 160px;
-            background-image: url(../images/discs/disc3.jpg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+            margin-bottom: 10px;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 2px 4px 0 $color-dark;
+            }
+            .disc3{
+                width: 160px;
+                height: 160px;
+                background-image: url(../images/discs/);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .disc{
+            width: 160px;
+            height: 160px;
+            margin-bottom: 10px;
+            width: 160px;
+            &:hover{
+                transform: scale(1.05);
+                box-shadow: 0 2px 4px 0 $color-dark;
+            }
+            .disc4{
+                width: 160px;
+                height: 160px;
+                background-image: url(../images/discs/disc3.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
         }
     }
 }

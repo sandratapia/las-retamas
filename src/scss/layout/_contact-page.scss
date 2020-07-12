@@ -1,0 +1,94 @@
+.contact{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    .main__contact{
+        max-width: 800px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        .contact__info{
+            font-family: $font-paragraph;
+            text-align: center;
+            .contact__title{
+                font-family: $font-title;
+                font-size: 25px;
+                margin-bottom: 15px;
+                @media all and (min-width: 768px){
+                    font-size: 30px;
+                }
+            }
+            .contact__text{
+                font-size: 15px;
+                @media all and (min-width: 768px){
+                    font-size: 18px;
+                }
+            }
+            .contact__textsmall{
+                padding: 10px 0 15px 0;
+                font-size: 10px;
+                @media all and (min-width: 768px){
+                    font-size: small;
+                }
+            }
+        }
+        .contact__form{
+            margin: 0 25px 0 25px;
+            text-align: left;
+            label{
+                display: block;
+                padding: 8px 0 8px 0;
+                width: 100%;
+                font-size: 15px;
+                @media all and (min-width: 768px){
+                    font-size: 18px;
+                }
+                input{
+                    width: 100%;
+                    padding: 4px 0 4px 6px;
+                    margin-top: 6px;
+                    outline: none;
+                    font-size: 15px;
+                    @media all and (min-width: 768px){
+                    font-size: 18px;
+                    }
+                }
+                textarea{
+                    display: block;
+                    margin-top: 6px;
+                    padding: 4px 0 4px 6px;
+                    width: 100%;
+                    font-size: 15px;
+                    @media all and (min-width: 768px){
+                    font-size: 18px;
+                    }
+                }
+            }
+            .send__button{
+                text-align: center;
+                .send{
+                    font-family: $font-title;
+                    background-color: $color-light;
+                    color: $color-dark;
+                    border-radius: 15px;
+                    margin-top: 15px;
+                    font-size: 18px;
+                    padding: 8px 0 8px 0;
+                    width: 150px;
+                    font-size: 15px;
+                    @media all and (min-width: 768px){
+                    font-size: 18px;
+                    }
+                    &:hover{
+                        transform: scale(1.05);
+                        box-shadow: 0 2px 4px 0 $color-dark;
+                    }
+                }
+            }
+        }
+    }
+}
+.asterisk{
+    color: red;
+}
