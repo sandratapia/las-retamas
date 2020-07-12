@@ -13,11 +13,9 @@
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
     .main__multimedia{
         max-width: 800px;
         width: 100%;
-        border: 1px solid red;
         .multimedia__title{
             font-family: $font-title;
             font-size: 25px;
@@ -30,7 +28,6 @@
         }
         .multimedia__disc1{
             width: 100%;
-            border: 1px solid red;
             .disc__info{
                 display: flex;
                 flex-direction: column;
@@ -58,7 +55,6 @@
                 .disc__description{
                     width: 100%;
                     font-family: $font-paragraph;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-left: 20px;
                     }
@@ -73,20 +69,21 @@
                 margin-top: 15px;
                 display: flex;
                 flex-direction: column;
-                border: 1px solid red;
                 @media all and (min-width: 768px){
                     flex-direction: row;
                 }
                 .spotify{
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-right: 10px;
                         width: 50%;
                     }
+                    .spotify__disc1{
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
                 .youtube{
                     height: 300px;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         width: 50%;
                         margin-left: 10px;
@@ -101,7 +98,6 @@
         .multimedia__disc2{
             width: 100%;
             margin-top: 20px;
-            border: 1px solid red;
             .disc__info{
                 display: flex;
                 flex-direction: column;
@@ -112,7 +108,6 @@
                 .img__disc2{
                     width: 160px;
                     height: 160px;
-                    border: 1px solid red;
                     flex-shrink: 0;
                     background-image: url(../images/discs/disc2.png);
                     background-size: contain;
@@ -129,7 +124,6 @@
                 .disc__description{
                     width: 100%;
                     font-family: $font-paragraph;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-right: 20px;
                     }
@@ -143,17 +137,19 @@
             .media__disc2{
                 margin-top: 15px;
                 display: flex;
-                border: 1px solid red;
                 .spotify{
                     width: 100%;
-                    border: 1px solid red;
+                    height: 200px;
+                    .spotify__disc2{
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }
         .multimedia__disc3{
             width: 100%;
             margin-top: 20px;
-            border: 1px solid red;
             .disc__info{
                 display: flex;
                 flex-direction: column;
@@ -181,7 +177,6 @@
                 .disc__description{
                     width: 100%;
                     font-family: $font-paragraph;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-left: 20px;
                     }
@@ -195,17 +190,18 @@
             .media__disc3{
                 margin-top: 15px;
                 display: flex;
-                border: 1px solid red;
                 .spotify{
                     width: 100%;
-                    border: 1px solid red;
+                    .spotify__disc3{
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }
         .multimedia__disc4{
             width: 100%;
             margin-top: 20px;
-            border: 1px solid red;
             .disc__info{
                 display: flex;
                 flex-direction: column;
@@ -216,7 +212,6 @@
                 .img__disc4{
                     width: 160px;
                     height: 160px;
-                    border: 1px solid red;
                     flex-shrink: 0;
                     background-image: url(../images/discs/disc3.jpg);
                     background-size: contain;
@@ -233,7 +228,6 @@
                 .disc__description{
                     width: 100%;
                     font-family: $font-paragraph;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-right: 20px;
                     }
@@ -248,20 +242,21 @@
                 margin-top: 15px;
                 display: flex;
                 flex-direction: column;
-                border: 1px solid red;
                 @media all and (min-width: 768px){
                     flex-direction: row;
                 }
                 .spotify{
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         margin-right: 10px;
                         width: 50%;
                     }
+                    .spotify__disc4{
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
                 .youtube{
                     height: 300px;
-                    border: 1px solid red;
                     @media all and (min-width: 768px){
                         width: 50%;
                         margin-left: 10px;
