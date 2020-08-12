@@ -27,7 +27,7 @@ _Por último para publicar la página en GitHub Pages, ejecutamos el siguiente c
 npm run docs
 ```
 
-### Expresiones de Gratitud 🎁
+### Agradecimientos 🎁
 
 * Gracias al grupo Las Retamas por la confianza depositada 😉.
 
