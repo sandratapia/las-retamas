@@ -1,6 +1,9 @@
 .wrapper__header{
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     width: 100%;
+    @media all and (min-width: 1440px){
+        padding: 0 150px;
+    }
 }
 .header{
     background-color: $color-dark;
@@ -25,7 +28,6 @@
         @media all and (min-width: 768px){
             font-size: 20px;
             height: 100%;
-            margin-left: 28px;
         }
         a{
             color: $color-light;
@@ -61,7 +63,7 @@
                 .menu{
                     a{
                         color: $color-light;
-                        margin-right: 28px;
+                        //margin-right: 28px;
                     }
                 }
             }
