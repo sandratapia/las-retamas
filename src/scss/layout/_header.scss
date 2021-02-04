@@ -35,6 +35,7 @@
             p{
                 width: 100%;
                 text-align: center;
+                cursor: pointer;
                 @media all and (min-width: 768px){
                     text-align: left;
                     font-size: 36px;
@@ -63,7 +64,6 @@
                 .menu{
                     a{
                         color: $color-light;
-                        //margin-right: 28px;
                     }
                 }
             }

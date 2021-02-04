@@ -12,20 +12,24 @@
     padding-top: 100px;
     padding-bottom: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    .multimedia__title{
+        font-family: $font-title;
+        font-size: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        margin: 0px;
+        @media all and (min-width: 768px){
+            font-size: 30px;
+        }
+    }
     .main__multimedia{
         max-width: 800px;
         width: 100%;
-        .multimedia__title{
-            font-family: $font-title;
-            font-size: 25px;
-            padding-bottom: 25px;
-            text-align: center;
-            margin: 0px;
-            @media all and (min-width: 768px){
-                font-size: 30px;
-            }
-        }
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: auto;
         .multimedia__disc1{
             width: 100%;
             margin-bottom: 45px;
@@ -39,9 +43,8 @@
                 .img__disc1{
                     width: 160px;
                     height: 160px;
-                    border: 1px solid red;
                     flex-shrink: 0;
-                    background-image: url(../images/discs/);
+                    background-image: url(../images/discs/disco1.jpg);
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;
@@ -161,9 +164,8 @@
                 .img__disc3{
                     width: 160px;
                     height: 160px;
-                    border: 1px solid red;
                     flex-shrink: 0;
-                    background-image: url(../images/discs/);
+                    background-image: url(../images/discs/disco4.jpg);
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center;

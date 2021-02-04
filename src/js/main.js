@@ -29,3 +29,12 @@ window.onSpotifyWebPlaybackSDKReady = () => {
   // Connect to the player!
   player.connect();
 };
+
+const closeIcon = document.getElementById('close__banner');
+const banner = document.getElementsByClassName('main__banner');
+
+function closeBanner(){
+  banner[0].classList.add("oculto");
+}
+
+closeIcon.addEventListener("click", closeBanner);
